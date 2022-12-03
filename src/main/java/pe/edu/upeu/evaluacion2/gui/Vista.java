@@ -142,110 +142,111 @@ public class Vista extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(102, 255, 102));
+        jPanel1.setBackground(new java.awt.Color(0, 255, 255));
         jPanel1.setForeground(new java.awt.Color(255, 0, 0));
 
-        jLabel1.setFont(new java.awt.Font("Wide Latin", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Impact", 0, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("EVALUACION UNIDAD  2");
 
-        jLabel2.setFont(new java.awt.Font("Serif", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel2.setText("ALUMNO:JHOSELYN CAJAVILCA");
+        jLabel2.setText("ALUMNO:FRAN FRANKLIN CALIZAYA");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(202, 202, 202)
-                        .addComponent(jLabel2))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(103, 103, 103)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 456, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 456, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel2)
+                        .addGap(170, 170, 170)))
+                .addGap(77, 77, 77))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(24, 24, 24)
+                .addContainerGap(24, Short.MAX_VALUE)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel2)
-                .addContainerGap(13, Short.MAX_VALUE))
+                .addContainerGap())
         );
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 0));
+        jPanel2.setBackground(new java.awt.Color(204, 255, 204));
 
         jLabel6.setBackground(new java.awt.Color(51, 255, 204));
+        jLabel6.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("JUGADOR 1 :");
         jLabel6.setOpaque(true);
 
         jLabel7.setBackground(new java.awt.Color(51, 255, 204));
+        jLabel7.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("JUGADOR 2 :");
         jLabel7.setOpaque(true);
 
-        jPanel5.setBackground(new java.awt.Color(0, 255, 0));
+        jPanel5.setBackground(new java.awt.Color(255, 255, 102));
 
-        Casilla1.setBackground(new java.awt.Color(51, 255, 204));
+        Casilla1.setBackground(new java.awt.Color(51, 102, 255));
         Casilla1.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla1.setForeground(new java.awt.Color(0, 0, 0));
         Casilla1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla1.setOpaque(true);
 
-        Casilla3.setBackground(new java.awt.Color(51, 255, 204));
+        Casilla3.setBackground(new java.awt.Color(0, 102, 255));
         Casilla3.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla3.setForeground(new java.awt.Color(0, 0, 0));
         Casilla3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla3.setOpaque(true);
 
-        Casilla4.setBackground(new java.awt.Color(51, 255, 204));
+        Casilla4.setBackground(new java.awt.Color(0, 102, 255));
         Casilla4.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla4.setForeground(new java.awt.Color(0, 0, 0));
         Casilla4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla4.setOpaque(true);
 
-        Casilla7.setBackground(new java.awt.Color(51, 255, 204));
+        Casilla7.setBackground(new java.awt.Color(0, 102, 255));
         Casilla7.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla7.setForeground(new java.awt.Color(0, 0, 0));
         Casilla7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla7.setOpaque(true);
 
-        Casilla2.setBackground(new java.awt.Color(51, 255, 204));
+        Casilla2.setBackground(new java.awt.Color(0, 102, 255));
         Casilla2.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla2.setForeground(new java.awt.Color(0, 0, 0));
         Casilla2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla2.setOpaque(true);
 
-        Casilla9.setBackground(new java.awt.Color(51, 255, 204));
+        Casilla9.setBackground(new java.awt.Color(0, 102, 255));
         Casilla9.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla9.setForeground(new java.awt.Color(0, 0, 0));
         Casilla9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla9.setOpaque(true);
 
-        Casilla6.setBackground(new java.awt.Color(51, 255, 204));
+        Casilla6.setBackground(new java.awt.Color(0, 102, 255));
         Casilla6.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla6.setForeground(new java.awt.Color(0, 0, 0));
         Casilla6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla6.setOpaque(true);
 
-        Casilla8.setBackground(new java.awt.Color(51, 255, 204));
+        Casilla8.setBackground(new java.awt.Color(0, 102, 255));
         Casilla8.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla8.setForeground(new java.awt.Color(0, 0, 0));
         Casilla8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla8.setOpaque(true);
 
-        Casilla5.setBackground(new java.awt.Color(51, 255, 204));
+        Casilla5.setBackground(new java.awt.Color(0, 102, 255));
         Casilla5.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
         Casilla5.setForeground(new java.awt.Color(0, 0, 0));
         Casilla5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla5.setOpaque(true);
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI Emoji", 1, 24)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("TURNO :");
 
@@ -315,12 +316,14 @@ public class Vista extends javax.swing.JFrame {
         );
 
         victoriasJ1.setBackground(new java.awt.Color(51, 255, 204));
+        victoriasJ1.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         victoriasJ1.setForeground(new java.awt.Color(0, 0, 0));
         victoriasJ1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         victoriasJ1.setText("0");
         victoriasJ1.setOpaque(true);
 
         victoriasJ2.setBackground(new java.awt.Color(51, 255, 204));
+        victoriasJ2.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         victoriasJ2.setForeground(new java.awt.Color(0, 0, 0));
         victoriasJ2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         victoriasJ2.setText("0");
@@ -366,10 +369,10 @@ public class Vista extends javax.swing.JFrame {
                 .addComponent(txtIdResultado, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txtNombrePartida, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(35, Short.MAX_VALUE))
+                .addContainerGap(44, Short.MAX_VALUE))
         );
 
-        jPanel3.setBackground(new java.awt.Color(0, 204, 204));
+        jPanel3.setBackground(new java.awt.Color(153, 255, 204));
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 102));
 
@@ -418,12 +421,15 @@ public class Vista extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jLabel3.setFont(new java.awt.Font("Impact", 0, 11)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("NOMBRE JUGADOR 1:");
 
+        jLabel4.setFont(new java.awt.Font("Impact", 0, 11)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("NOMBRE JUGADOR 2:");
 
+        btnIniciar.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         btnIniciar.setText("INICIAR");
         btnIniciar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -431,6 +437,7 @@ public class Vista extends javax.swing.JFrame {
             }
         });
 
+        btnAnular.setFont(new java.awt.Font("Impact", 0, 14)); // NOI18N
         btnAnular.setText("ANULAR");
         btnAnular.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -460,7 +467,7 @@ public class Vista extends javax.swing.JFrame {
                                 .addComponent(jLabel4)
                                 .addGap(18, 18, 18)
                                 .addComponent(txtJugador2)))
-                        .addGap(0, 14, Short.MAX_VALUE)))
+                        .addGap(0, 72, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
