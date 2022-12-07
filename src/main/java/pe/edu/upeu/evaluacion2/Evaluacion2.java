@@ -10,7 +10,7 @@ import pe.edu.upeu.evaluacion2.gui.Vista;
 
 /**
  *
- * @author HP
+ * @author frans
  */
 public class Evaluacion2 {
 

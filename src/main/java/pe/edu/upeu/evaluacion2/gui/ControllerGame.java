@@ -14,7 +14,7 @@ import javax.swing.JLabel;
 
 /**
  *
- * @author USUARIO
+ * @author frans
  */
 public class ControllerGame {
 
